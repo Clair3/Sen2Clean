@@ -6,9 +6,9 @@ Sen2Clean remove cloud and clean time series of vegetation index from Sentinel-2
  - Noise reduction by detecting and removing unrealistic noisy local minima (often caused by undetected clouds)
 
 # Main Features
-Masks clouds using SCL classes and a configurable valid pixel threshold
-Generates maximum-value composites over fixed intervals (default: 16 days)
-Removes residual noise using local minima filtering with customisable windows
+- Masks clouds using SCL classes and a configurable valid pixel threshold
+- Generates maximum-value composites over fixed intervals (default: 16 days)
+- Removes residual noise using local minima filtering
 
 # Requirements
 xarray
